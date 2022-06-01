@@ -23,13 +23,11 @@ for j in range(nr_symbols):
 
 for k in range(nr_numbers):
   password += random.choice(numbers)
-print(password)  #easy level
 
 password_hard = list(password)
 
 
 random.shuffle(password_hard)
-print(password_hard)
 string = ""
 for i in password_hard:
   string += i
